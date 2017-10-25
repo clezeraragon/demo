@@ -73,7 +73,7 @@
                             @endif
                             <p class="topprofiletext">{{ Sentinel::getUser()->first_name }} {{ Sentinel::getUser()->last_name }}</p>
                         </li>
-                        
+
                         <!-- Menu Body -->
                         <li>
                             {{--<a href="{{ URL::route('admin.users.show',Sentinel::getUser()->id) }}">--}}
